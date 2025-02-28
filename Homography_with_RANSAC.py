@@ -1,8 +1,5 @@
 # TRABALHO 2 DE VISÃO COMPUTACIONAL
 # Nome: Tonim
-
-# Importa as bibliotecas necessárias
-# Acrescente qualquer outra que quiser
 import numpy as np
 import matplotlib.pyplot as plt
 import math
