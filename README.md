@@ -55,7 +55,7 @@ O código está organizado em funções:
 - ### Visualização
   - Alguns exemplos em imagens internas são exibidos abaixo.
 
-![Homografia utilizando capa de revista 1](imagens/Figure_9.jpg "Homografia utilizando a logo do laboratório de visão computacional 1")
+![Homografia utilizando capa de revista 1](imagens/Figure_9.png "Homografia utilizando a logo do laboratório de visão computacional 1")
 
 ![Homografia utilizando capa de revista 2](imagens/Figure_5.png "Homografia utilizando capa de revista 2")
 
