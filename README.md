@@ -55,17 +55,17 @@ O código está organizado em funções:
 - ### Visualização
   - Alguns exemplos em imagens internas são exibidos abaixo.
 
----
-
-## Exemplo de Uso
-
-Para executar o código e visualizar os resultados, basta rodar:
-
 ![Homografia utilizando capa de revista 1](imagens/Figure_9.jpg "Homografia utilizando a logo do laboratório de visão computacional 1")
 
 ![Homografia utilizando capa de revista 2](imagens/Figure_5.png "Homografia utilizando capa de revista 2")
 
 ![Homografia utilizando a contrução antiga 1](imagens/Figure_3.png "Homografia utilizando a contrução antiga 1")
+
+---
+
+## Exemplo de Uso
+
+Para executar o código e visualizar os resultados, basta rodar:
 
 ```bash
 python Trab2_Antonio_Entringer.py
