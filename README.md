@@ -47,18 +47,13 @@ O código está organizado em funções:
     - **Refinamento:**  
       A homografia final é reestimada utilizando todos os inliers identificados.
 
-- ### Carregamento das Imagens
-  - **`load_images(case_number)`**  
-    Carrega pares de imagens com base em um número de caso.  
-    - Existem 11 conjuntos de imagens, cada um representando diferentes cenários.
-
 - ### Detecção e Correspondência de Pontos (SIFT e FLANN)
-  - São utilizados os métodos SIFT para detectar e descrever pontos chave em cada imagem.  
-  - O FLANN é empregado para encontrar as melhores correspondências entre os descritores das imagens.
-  - Após a correspondência, o RANSAC é aplicado para estimar uma homografia robusta e remover outliers.
+  - SIFT é utilizado para detectar e descrever os pontos chave em cada imagem.  
+  - FLANN é empregado para encontrar as melhores correspondências entre os descritores das imagens.
+  - Após a correspondência, o RANSAC é aplicado para estimar uma homografia robusta e remover correlações falhas entre SIFT E FLANN.
 
 - ### Visualização
-  - Os resultados são exibidos usando o Matplotlib, onde cada par de imagens (com correspondências, imagens originais e a transformação aplicada) é apresentado em uma janela separada.
+  - Alguns exemplos em imagens internas são exibidos abaixo.
 
 ---
 
